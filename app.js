@@ -27,5 +27,5 @@ buttonEl.addEventListener('click', () => {
 
     alert(`Excellent ${firstName} ${lastName}, you have surpassed our expectations.`);
 
-    resultsEl.textContent = `Well, well, well, ${firstName} you knew ${correctAnswers} of the answers!`;
+    resultsEl.textContent = `Well, well, well, ${firstName}, you knew ${correctAnswers} of the answers!`;
 });
