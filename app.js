@@ -1,11 +1,9 @@
-// import functions and grab DOM elements
 const buttonEl = document.getElementById('quiz-element');
 const resultsEl = document.getElementById('results-element');
 
 import { aYesAnswer } from './utils.js';
 
 buttonEl.addEventListener('click', () => {
-  // local state -- lives inside a function
     let correctAnswers = 0;
 
     const firstName = prompt('Hello! Can I have your first name?');
@@ -27,7 +25,7 @@ buttonEl.addEventListener('click', () => {
 
     if (!aYesAnswer(thirdQuestion)) correctAnswers++;
 
-    alert(`Noice ${firstName} ${lastName}, once again you have surpassed our expectations.`);
+    alert(`Excellent ${firstName} ${lastName}, you have surpassed our expectations.`);
 
-    resultsEl.textContent = `Great job ${firstName} ${lastName} you knew ${correctAnswers} of the answers!`;
+    resultsEl.textContent = `Well, well, well, ${firstName} you knew ${correctAnswers} of the answers!`;
 });

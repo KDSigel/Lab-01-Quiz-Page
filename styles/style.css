@@ -34,8 +34,14 @@ header {
 footer {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
+}
+.big-button {
+    padding: 5px;
+}
+.results-answer {
+    margin: 30px;
 }
