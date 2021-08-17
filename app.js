@@ -18,15 +18,15 @@ buttonEl.addEventListener('click', () => {
   
     if (!continueQuiz) return;
 
-    const firstQuestion = prompt('Did the movie frighten the president of the United States?');
+    const firstQuestion = prompt('Is Adam the Podfather of podcasting?');
 
     if (countsAsAYes(firstQuestion)) correctAnswers++;
 
-    const secondQuestion = prompt('Did the writers write other movies about hackers?');
+    const secondQuestion = prompt('Was Adam the first to register the domain MTV.com?');
 
     if (countsAsAYes(secondQuestion)) correctAnswers++;
 
-    const thirdQuestion = prompt('Was the Professor based on the professor from Gilligans Island?');
+    const thirdQuestion = prompt('Is Adam related to a famous FBI agent?');
 
     if (!countsAsAYes(thirdQuestion)) correctAnswers++;
 
