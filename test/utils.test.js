@@ -12,7 +12,7 @@ test('time to test a function', (expect) => {
 test('time to test a function', (expect) => {
 
     const expected = false;
-    const actual = countsAsAYes(!'y');
+    const actual = countsAsAYes('no');
 
     expect.equal(actual, expected);
 });
