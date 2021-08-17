@@ -40,8 +40,16 @@ footer {
     margin-bottom: 200px;
 }
 .big-button {
-    padding: 5px;
+    padding: 15px;
+    background-color: rgb(49, 49, 255);
+    color: white;
+    border-style:none;
+    border-radius: 7px;
+    font-size: 2rem;
 }
 .results-answer {
     margin: 30px;
+}
+.big-button:hover {
+    
 }
